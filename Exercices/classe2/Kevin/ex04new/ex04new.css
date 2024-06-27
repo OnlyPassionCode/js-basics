@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#kevin-carousel{
+    width: 930px;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    overflow-x: hidden;
+}
+#kevin-carousel .item{
+    width: 300px;
+    transition: translate 500ms;
+}
